@@ -1,0 +1,92 @@
+/* Full screen center */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: Arial, sans-serif;
+}
+
+/* Card style */
+.login-card {
+  width: 350px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}
+
+/* Title */
+.login-card h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Remember & forgot */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-options input {
+  margin-right: 5px;
+}
+
+.forgot {
+  cursor: pointer;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: white;
+  color: #6a11cb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #f1f1f1;
+  transform: scale(1.03);
+}
+
+/* Register text */
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-text span {
+  font-weight: bold;
+  cursor: pointer;
+}
+.error {
+  color: #f90b0b;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
